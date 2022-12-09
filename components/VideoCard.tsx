@@ -71,7 +71,7 @@ const VideoCard: NextPage<IProps> = ({ post: { caption, postedBy, video, _id, li
                 <Image
                   width={62}
                   height={62}
-                  className='rounded-full'
+                  className=' rounded-full'
                   src={postedBy?.image}
                   alt='user-profile'
                   layout='responsive'
@@ -141,4 +141,4 @@ const VideoCard: NextPage<IProps> = ({ post: { caption, postedBy, video, _id, li
   );
 };
 
-export default VideoCard;
+export default VideoCard
